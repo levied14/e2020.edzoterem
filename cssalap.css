@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, ;
+}
+
+.menu {
+    background-color: #eeea1c;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 2;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #e90000;
+}
