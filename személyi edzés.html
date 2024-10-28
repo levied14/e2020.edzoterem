@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENERGYM - Személyi Edzők</title>
+    <style>
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #000; /* Fekete háttér az egész oldalra */
+            color: yellow; /* Sárga szöveg az egész oldalra */
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: yellow;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: yellow; /* Sárga címek */
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .edzoi-lehetoseg {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .edzo {
+            background: #222; /* Sötét szürke háttér az edző boxokhoz */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.3);
+            flex: 1 1 calc(33.333% - 20px);
+            text-align: center;
+            color: yellow; /* Sárga szöveg az edzők boxaiban */
+        }
+
+        .edzo img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 2px solid yellow; /* Sárga keret a képekhez */
+        }
+
+        .edzo h3 {
+            font-size: 1.2em;
+            color: yellow; /* Sárga betűszín az edzők neveihez */
+            margin-bottom: 5px;
+        }
+
+        .edzo p {
+            font-size: 0.9em;
+            color: #ccc; /* Világos szürke szöveg a leírásokhoz */
+        }
+
+        .lehetosegek {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #222; /* Sötétszürke háttér az opciók boxokhoz */
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.3);
+        }
+
+        .lehetosegek h2 {
+            color: yellow; /* Sárga címek az opció boxokban */
+        }
+
+        .lehetoseg {
+            margin-top: 10px;
+            padding: 10px;
+            background: #333; /* Sötétszürke háttér az egyes opciókhoz */
+            border-radius: 5px;
+            color: #ccc; /* Világos szürke szöveg az opciókban */
+            box-shadow: 0px 0px 5px rgba(255, 255, 0, 0.2);
+        }
+
+        .vissza-gomb {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: yellow;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .vissza-gomb:hover {
+            background-color: #ccc;
+        }
+
+        footer {
+            text-align: center;
+            color: yellow;
+            background-color: #333;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ENERGYM - Személyi Edzők</h1>
+    </header>
+
+    <div class="container">
+	<a href="edzoterem.html" class="vissza-gomb">Vissza a Kezdőoldalra</a>
+        <h2>Ismerd meg személyi edzőinket</h2>
+        <div class="edzoi-lehetoseg">
+            <div class="edzo">
+                <img src="edzo1.jpg" alt="Vajda László">
+                <h3>Vajda László</h3>
+                <p> Edzői pályafutásom több mint 10 éve kezdtem kisebb nagyobb megszakításokkal de teljes mértékben 7 éve állok a formálódni, egészségesebb, fittebb életre vágyók rendelkezésére. </p>
+            </div>
+            <div class="edzo">
+                <img src="edzo2.jpg" alt="Vancsik Róbert">
+                <h3>Vancsik Róbert</h3>
+                <p> Közel 20 év tapasztalatával,dolgozom személyedzőként! A hivatásom az, hogy mindenki képes jobb verziójává válni önmagának, és én itt vagyok, hogy ehhez segítséget nyújtsak.</p>
+            </div>
+            <div class="edzo">
+                <img src="edzo3.jpg" alt="Jónás Anna">
+                <h3>Jónás Anna</h3>
+                <p>Az én szenvedélyem az emberek segítése abban, hogy elérjék egészségesebb, aktívabb és boldogabb életüket.</p>
+            </div>
+        </div>
+
+        <div class="lehetosegek">
+            <h2>Személyi edzés lehetőségek</h2>
+            <div class="lehetoseg">
+                <h3>Egyéni személyi edzés</h3>
+                <p>Személyre szabott edzésterv, amely figyelembe veszi az egyéni célokat és fizikai állapotot.</p>
+            </div>
+            <div class="lehetoseg">
+                <h3>Online konzultáció</h3>
+                <p>Távolról is elérhető személyi edzésprogram, amely segít az otthoni vagy edzőtermi edzésben.</p>
+            </div>
+            <div class="lehetoseg">
+                <h3>Kiscsoportos edzés</h3>
+                <p>Közösségi edzés maximum 4-6 fős csoportokban, ahol motiváló környezetben fejlődhetsz.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Kapcsolat: info@energym.hu | © 2024 ENERGYM</p>
+    </footer>
+</body>
+</html>
