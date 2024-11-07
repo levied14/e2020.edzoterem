@@ -5,7 +5,7 @@
 }
 
 body {
-	background: url('logo.jpg') no-repeat center center fixed;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('logo.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
     color: #333;
@@ -23,14 +23,14 @@ header {
 }
 
 header .logo {
-	color:white;
+	color:yellow;
     font-size: 1.5em;
     font-weight: bold;
     margin-left: 20px;
 }
 
 nav ul {
-	color:white;
+	color:yellow;
     list-style: none;
     display: flex;
     gap: 1em;
@@ -38,7 +38,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
+    color: yellow;
     text-decoration: none;
 }
 
@@ -53,13 +53,13 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-	color:white;
+	color:yellow;
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
 .hero p {
-	color:white;
+	color:yellow;
     font-size: 1.2em;
     margin-bottom: 1em;
 }
@@ -79,6 +79,7 @@ color:yellow;
 
 .cta-button:hover {
     background-color: #d03;
+	
 }
 
 .about, .services {
@@ -87,18 +88,19 @@ color:yellow;
 }
 
 .about h2, .services h2 {
-	color:white;
+	color:yellow;
     font-size: 2em;
     margin-bottom: 0.5em;
 }
 
 .service-item {
-    background: #f9f9f9;
+    background: #333;
     padding: 20px;
     margin: 20px auto;
     max-width: 300px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	color:yellow;
 }
 
 .service-item h3 {
@@ -108,10 +110,10 @@ color:yellow;
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: yellow;
     padding: 1em 0;
     text-align: center;
 }
 .betuszin{
-	color:white;
+	color:yellow;
 }
