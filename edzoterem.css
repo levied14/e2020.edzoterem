@@ -67,7 +67,7 @@ nav ul li a:hover {
 color:yellow;
 }
 
-.cta-button {
+.pipa {
     display: inline-block;
     padding: 0.75em 1.5em;
     background-color: #f04;
@@ -77,23 +77,23 @@ color:yellow;
     font-weight: bold;
 }
 
-.cta-button:hover {
+.pipa:hover {
     background-color: #d03;
 	
 }
 
-.about, .services {
+.gomb, .víz {
     padding: 50px 20px;
     text-align: center;
 }
 
-.about h2, .services h2 {
+.gomb h2, .víz h2 {
 	color:yellow;
     font-size: 2em;
     margin-bottom: 0.5em;
 }
 
-.service-item {
+.szolgaltatas {
     background: #333;
     padding: 20px;
     margin: 20px auto;
@@ -103,7 +103,7 @@ color:yellow;
 	color:yellow;
 }
 
-.service-item h3 {
+.szolgaltatas h3 {
     color: #f04;
     margin-bottom: 0.5em;
 }
