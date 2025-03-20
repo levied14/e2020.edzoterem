@@ -91,6 +91,7 @@
             transform-style: preserve-3d;
             transition: transform 0.6s;
             cursor: pointer;
+			ba
         }
 
         .edzo.flipped {
@@ -138,6 +139,7 @@
             font-weight: bold;
             text-align: center;
             transition: background-color 0.3s;
+			
         }
 
         .vissza-gomb:hover {
